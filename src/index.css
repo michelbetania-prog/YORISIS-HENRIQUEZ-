@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-olive-50: #f7f8f3;
+  --color-olive-100: #eef0e6;
+  --color-olive-200: #d8dcc6;
+  --color-olive-300: #b8c099;
+  --color-olive-400: #96a16e;
+  --color-olive-500: #708238;
+  --color-olive-600: #5a6830;
+  --color-olive-700: #4a5428;
+  --color-olive-800: #3d4423;
+  --color-olive-900: #343a1f;
+
+  --color-beige-50: #fdfcfa;
+  --color-beige-100: #f9f6f0;
+  --color-beige-200: #f3ede0;
+  --color-beige-300: #e8dcc6;
+  --color-beige-400: #d4c4a8;
+  --color-beige-500: #c4ae8a;
+
+  --color-gold-300: #e8d5a3;
+  --color-gold-400: #d4b978;
+  --color-gold-500: #c9a84c;
+  --color-gold-600: #b8963d;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-olive-900 bg-beige-50;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.leaf-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5c-5 8-15 12-15 25 0 8 7 15 15 15s15-7 15-15c0-13-10-17-15-25z' fill='%23708238' fill-opacity='0.03'/%3E%3C/svg%3E");
+}
