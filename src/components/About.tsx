@@ -20,7 +20,7 @@ export default function About() {
           </div>
 
           <div>
-            <span className="text-gold-500 font-medium tracking-widest text-sm uppercase">Tu Mentora</span>
+            <span className="text-gold-500 font-medium tracking-widest text-sm uppercase">TU ACOMPAÑANTE</span>
             <h2 className="font-serif text-4xl md:text-6xl text-olive-800 mt-4 mb-2">Yosiris Henríquez</h2>
             <p className="text-olive-500 font-medium text-xl mb-8">Estratega de Vida</p>
             
@@ -29,26 +29,11 @@ export default function About() {
                 "Soy una hija Amada por Dios con una nueva identidad."
               </p>
               <p>
-                Conecté con mi propósito de vida, eligiendo vivir en obediencia y en la paz de que todo obra para mi mayor bien.
+                Conecté con mi propósito de vida, eligiendo vivir en obediencia, perseverancia y caminando en la divina voluntad de Dios, creyendo que todo obra para mi mayor bien.
               </p>
               
-              <div className="bg-white/50 backdrop-blur-sm rounded-3xl p-8 my-8 border border-white/50 shadow-sm space-y-4">
-                <div className="flex items-center gap-4">
-                  <div className="w-2 h-2 bg-gold-500 rounded-full" />
-                  <p><span className="font-semibold">Creadora de la Comunidad</span> Conecta con tu Esencia</p>
-                </div>
-                <div className="flex items-center gap-4">
-                  <div className="w-2 h-2 bg-gold-500 rounded-full" />
-                  <p>🙏🏼 Servidora de EMAUS</p>
-                </div>
-                <div className="flex items-center gap-4">
-                  <div className="w-2 h-2 bg-gold-500 rounded-full" />
-                  <p>💝 Acompañamientos "Sanadas para Servir"</p>
-                </div>
-              </div>
-
               <p>
-                Es un honor para mí seguir acompañándote desde el Amor y en total Gratitud. Me encanta poder llevar luz para que sigas Conectando con tu Esencia y puedas cada día construir tu Mejor Versión en Plenitud Emocional.
+                Es un honor para mí acompañarte desde el Amor y en total Gratitud. Me encanta poder llevar claridad a tu vida, que sigas conectando con tu Esencia y puedas construir tu Mejor Versión en Plenitud Emocional y Espiritualidad.
               </p>
             </div>
 

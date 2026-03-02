@@ -11,12 +11,12 @@ export default function CTA() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <h2 className="font-serif text-5xl md:text-7xl mb-8 leading-tight">
-          Tu transformación <br />
-          <span className="italic text-gold-400">comienza con un sí</span>
+          Tu transformación…
         </h2>
         
-        <p className="text-olive-200 text-xl md:text-2xl max-w-2xl mx-auto mb-16 leading-relaxed font-light">
-          Este es el momento. Ya has esperado suficiente. Tu niña interior, tu presente y tu futuro merecen que des este paso hacia la plenitud.
+        <p className="text-olive-200 text-xl md:text-2xl max-w-3xl mx-auto mb-16 leading-relaxed font-light">
+          Este es el momento. Ya has esperado suficiente. <br />
+          Tu niña interior, tu presente y tus futuras generaciones merecen que des ese paso de cortar patrones, sanar y vivir en plenitud emocional, sintiéndote una hija Amada por Dios con una nueva identidad.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

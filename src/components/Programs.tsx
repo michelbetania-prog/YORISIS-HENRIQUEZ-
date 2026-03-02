@@ -7,11 +7,11 @@ export default function Programs() {
       title: "Sanada para Servir",
       subtitle: "NIVEL UNO",
       duration: "Programa de 21 días",
-      price: "US$150",
       features: [
-        "Sanación del vientre materno",
-        "Liberación emocional profunda",
+        "Sanación de vientre materno",
+        "Sanación con tus Padres",
         "Reconexión con tu niña interior",
+        "Sanación Emocional y crecimiento Espiritual",
         "Ejercicios prácticos y acompañamiento"
       ],
       popular: false,
@@ -21,13 +21,13 @@ export default function Programs() {
       level: "2",
       title: "Sanada para Servir",
       subtitle: "NIVEL DOS",
-      duration: "Segundo nivel de profundidad",
-      price: "US$250",
+      duration: "Programa de 6 semanas",
       features: [
-        "Autoestima elevada y sostenida",
-        "Ordenar finanzas desde la conciencia",
-        "Transformar relaciones desde el amor",
-        "Descubrir tu propósito de vida"
+        "Conectar con tu Amor Propio",
+        "Autoestima, tus apegos y poner límites sanos",
+        "Ordenar tus finanzas desde la conciencia",
+        "Transformar relaciones desde el Amor y el Perdón",
+        "Conectar con tu Propósito de Vida"
       ],
       popular: false,
       color: "gold"
@@ -38,22 +38,15 @@ export default function Programs() {
     <section id="programas" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-20">
-          <span className="text-gold-500 font-medium tracking-widest text-sm uppercase">Programas</span>
-          <h2 className="font-serif text-4xl md:text-6xl text-olive-800 mt-4 mb-6">Tu camino de transformación</h2>
-          <p className="text-olive-600 max-w-2xl mx-auto text-lg font-light">
-            Dos niveles de profundidad diseñados para guiarte desde la sanación de tu raíz hasta la expansión de tu propósito divino.
+          <h2 className="font-serif text-4xl md:text-6xl text-olive-800 mb-6 uppercase tracking-tight">TU CAMINO DE TRANSFORMACIÓN</h2>
+          <p className="text-olive-600 max-w-3xl mx-auto text-lg md:text-xl font-light">
+            Dos cursos diseñados para acompañarte y guiarte en la sanación de vientre materno y crecimiento espiritual, hasta conectar con tu propósito de vida.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
           {programs.map((program, index) => (
             <div key={index} className="relative group">
-              {program.popular && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-20 bg-gold-500 text-white text-xs font-bold px-6 py-1.5 rounded-full uppercase tracking-widest shadow-lg">
-                  Más Recomendado
-                </div>
-              )}
-              
               <div className={`relative h-full bg-white rounded-[2.5rem] p-10 md:p-12 border-2 transition-all duration-500 ${
                 program.popular ? "border-gold-400 shadow-2xl shadow-gold-200/50" : "border-olive-100 hover:border-olive-300"
               }`}>
@@ -85,10 +78,6 @@ export default function Programs() {
                 </ul>
 
                 <div className="pt-8 border-t border-beige-200 mt-auto text-center">
-                  <div className="mb-8">
-                    <p className="text-olive-400 text-sm uppercase tracking-wider mb-1">Inversión</p>
-                    <p className="font-serif text-4xl text-olive-800 font-bold">{program.price}</p>
-                  </div>
                   <div className="space-y-4">
                     <p className="text-olive-600 font-medium">Próximas fechas por confirmar</p>
                     <a

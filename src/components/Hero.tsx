@@ -35,9 +35,19 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-lg md:text-xl text-olive-600 max-w-2xl mx-auto mb-12 leading-relaxed font-light"
+          className="text-lg md:text-xl text-olive-600 max-w-3xl mx-auto mb-6 leading-relaxed font-light"
         >
-          Un proceso guiado para mujeres que decidieron transformarse desde adentro y conectar con su verdadera esencia.
+          Es un proceso para acompañar y guiar a Mujeres en su Sanación Emocional y Espiritual que eligen transformarse y conectar con su verdadera esencia, guiándolas a encontrar su identidad como hijas Amadas de Dios.
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+          className="text-xl md:text-2xl text-olive-800 font-serif italic mb-12"
+        >
+          No necesitas más información. <br />
+          Necesitas Acompañamiento y transformación.
         </motion.p>
 
         <motion.div
