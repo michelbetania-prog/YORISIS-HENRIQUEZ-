@@ -21,22 +21,18 @@ export default function CTA() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
-            href="https://wa.me/18622879211"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#diagnostico"
             className="group inline-flex items-center gap-3 bg-gold-500 text-olive-950 px-12 py-6 rounded-full font-bold text-xl hover:bg-gold-400 transition-all shadow-2xl shadow-gold-500/30 hover:-translate-y-1"
           >
             <span>Consultar próximas fechas</span>
             <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="https://wa.me/18622879211"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#diagnostico"
             className="inline-flex items-center gap-3 text-white border-2 border-white/20 px-10 py-5 rounded-full font-medium text-lg hover:bg-white/10 transition-all backdrop-blur-sm"
           >
             <MessageCircle className="w-6 h-6" />
-            <span>Consultar por WhatsApp</span>
+            <span>Consultar si es para ti</span>
           </a>
         </div>
       </div>

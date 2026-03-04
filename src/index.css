@@ -27,6 +27,8 @@
   --color-gold-400: #d4b978;
   --color-gold-500: #c9a84c;
   --color-gold-600: #b8963d;
+
+  --animate-spin-slow: spin 8s linear infinite;
 }
 
 @layer base {

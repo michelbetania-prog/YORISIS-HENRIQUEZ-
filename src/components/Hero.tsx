@@ -57,9 +57,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-6"
         >
           <a
-            href="https://wa.me/18622879211"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#diagnostico"
             className="group inline-flex items-center gap-3 bg-olive-700 text-white px-10 py-5 rounded-full font-medium text-lg hover:bg-olive-800 transition-all shadow-lg shadow-olive-700/20 hover:-translate-y-1"
           >
             <span>Consultar próximas fechas</span>

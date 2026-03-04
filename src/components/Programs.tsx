@@ -7,6 +7,7 @@ export default function Programs() {
       title: "Sanada para Servir",
       subtitle: "NIVEL UNO",
       duration: "Programa de 21 días",
+      link: "https://forms.gle/7AUDoZhLR7rRqbKN9",
       features: [
         "Sanación de vientre materno",
         "Sanación con tus Padres",
@@ -22,6 +23,7 @@ export default function Programs() {
       title: "Sanada para Servir",
       subtitle: "NIVEL DOS",
       duration: "Programa de 6 semanas",
+      link: "https://forms.gle/DVxRwXtihFSVoHfKA",
       features: [
         "Conectar con tu Amor Propio",
         "Autoestima, tus apegos y poner límites sanos",
@@ -81,9 +83,7 @@ export default function Programs() {
                   <div className="space-y-4">
                     <p className="text-olive-600 font-medium">Próximas fechas por confirmar</p>
                     <a
-                      href="https://wa.me/18622879211"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="#diagnostico"
                       className={`inline-flex items-center gap-2 px-8 py-4 rounded-2xl font-semibold text-lg transition-all shadow-lg ${
                         program.popular 
                           ? "bg-gold-500 text-white hover:bg-gold-600 shadow-gold-500/20" 

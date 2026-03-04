@@ -9,6 +9,7 @@ import Problem from "./components/Problem";
 import About from "./components/About";
 import Programs from "./components/Programs";
 import Features from "./components/Features";
+import Diagnostic from "./components/Diagnostic";
 import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
@@ -43,6 +44,8 @@ export default function App() {
         >
           <Problem />
         </motion.div>
+
+        <Diagnostic />
 
         <About />
 
